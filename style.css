@@ -1,0 +1,40 @@
+/* RESET DEFAULT CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #ccc1f4;
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* DRAGABLE CONTAINER */
+#left, #right{
+    width: 300px;
+    min-height: 400px;
+    margin: 20px;
+    border:  6px dotted #fff;
+    border-radius: 0.4rem;
+}
+
+.list{
+    background: #444787;
+    height: 60px;
+    margin: 30px;
+    border-radius: .3rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
+.list i{
+    width: 10px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
